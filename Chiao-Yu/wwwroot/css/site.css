@@ -1,0 +1,86 @@
+
+.navbar {
+    background-color: bisque !important;
+}
+
+.bodyCard {
+    border: 10px dotted bisque;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+label{
+    width: 240px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(67,8,0,255);
+}
+
+h2 {
+    color: saddlebrown;
+    text-align: center;
+}
+
+h3 {
+    color: rosybrown;
+    text-align: center;
+}
+
+p{
+    color: saddlebrown;  
+}
+
+.language-dots{
+    font-size: 40PX;
+    margin-left: 15px;
+}
+
+.nav-item .nav-link {
+    font-size: 20px;
+    color: saddlebrown !important;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%); 
+    }
+}
+
+.imageSlide-container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.imageSlide-container img {
+    margin-right: 30px;
+    flex-shrink: 0; 
+    animation: slide 2s linear infinite alternate;   
+}
